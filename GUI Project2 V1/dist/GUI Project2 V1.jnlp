@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="GUI Project2 V1.jnlp">
+  <information>
+    <title>GUI Project2 V1</title>
+    <vendor>kamil</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="lib\twitter4j-core-4.0.4.jar" size="290456" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="GUI Project2 V1" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="gui.project2.v1.GUIProject2V1"  name="GUI Project2 V1" />
+  <update check="always"/>
+</jnlp>
